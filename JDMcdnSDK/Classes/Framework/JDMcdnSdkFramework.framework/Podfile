@@ -1,0 +1,9 @@
+  source 'https://github.com/CocoaPods/Specs.git'
+  target "JDMcdnSdkFramework" do
+    platform :ios, '10.0'
+
+    pod 'AFNetworking', '~> 4.0.1'
+    pod 'MJExtension', '~> 3.4.1'
+    pod 'KTVCocoaHTTPServer'
+    
+  end
