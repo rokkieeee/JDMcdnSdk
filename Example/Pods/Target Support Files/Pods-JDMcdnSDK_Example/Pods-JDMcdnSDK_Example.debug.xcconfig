@@ -1,9 +1,10 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket" "${PODS_CONFIGURATION_BUILD_DIR}/JDMcdnSDK" "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension"
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket" "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension" "${PODS_ROOT}/../../JDMcdnSDK/Classes"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/JDMcdnSDK/JDMcdnSDK.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer/KTVCocoaHTTPServer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/KTVCocoaHTTPServer/KTVCocoaHTTPServer.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_LDFLAGS = $(inherited) -framework "AFNetworking" -framework "CFNetwork" -framework "CocoaAsyncSocket" -framework "Foundation" -framework "JDMcdnSDK" -framework "KTVCocoaHTTPServer" -framework "MJExtension" -framework "Security"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "AFNetworking" -framework "CFNetwork" -framework "CocoaAsyncSocket" -framework "Foundation" -framework "JDMcdnSdkFramework" -framework "KTVCocoaHTTPServer" -framework "MJExtension" -framework "Security"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
