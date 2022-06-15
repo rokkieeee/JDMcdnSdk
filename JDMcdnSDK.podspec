@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JDMcdnSDK'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of JDMcdnSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,14 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'JDMcdnSDK/Classes/**/*'
-  
+  s.source_files = 'JDMcdnSDK/Classes/**/*.{h,m,framework}'
+  s.vendored_frameworks = 'JDMcdnSDK/Classes/**/*.framework'
+  s.pod_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64'}
+#  s.static_framework = true
   # s.resource_bundles = {
   #   'JDMcdnSDK' => ['JDMcdnSDK/Assets/*.png']
   # }

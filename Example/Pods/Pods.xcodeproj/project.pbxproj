@@ -39,7 +39,6 @@
 		2A532335579D712DF209ADAAF7DBF7EF /* KTVHCDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA107D3ADBF09C7DE1BD1248749430B /* KTVHCDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = B74A4FF263B16C88120739E9913A0436 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CB61F6FA511CAACB43A50DC3A82E0DD /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 458B8CB791DCED8C362A9F53B94665CB /* UIImage+Snapshot.m */; };
-		2D75FC65C702FF7B32BACB1A8EA6621C /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = F772CF708395AFFFBD714FB172896EFD /* Info.plist */; };
 		2DAA630E3941057C10567F7E2CC84F55 /* NSMutableDictionary+JDMCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FF6770E5305DDFCF3E5BE64644B9828 /* NSMutableDictionary+JDMCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2ECCAC52EF4C74E1032E0BC646BBE5B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B5EA52EEB79C4657FED09961B6533B /* Foundation.framework */; };
 		30D475DF57C0C682A723231E7BCA0D14 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = BE930D6904CD4CF533CDDF969C2149F1 /* FBSnapshotTestCasePlatform.m */; };
@@ -322,9 +321,9 @@
 		402F1307C97F15E4B35B0F70C6796087 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		41FDE1174FCEAEE79A535F60B78DF5D1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		43905825AAB400DEA7014A2D4F5089ED /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		441C738CBB8ECF438463274275E81A3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		441C738CBB8ECF438463274275E81A3E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		444FCA824D8B54E23681385241712A6D /* KTVCocoaHTTPServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KTVCocoaHTTPServer-dummy.m"; sourceTree = "<group>"; };
-		457567D2B5EA0B593DD7C3C6F1AD12BB /* JDMcdnSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JDMcdnSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		457567D2B5EA0B593DD7C3C6F1AD12BB /* JDMcdnSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JDMcdnSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		458B8CB791DCED8C362A9F53B94665CB /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		49287E1729B9C6016BFD844A10E3BAA8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		4957F11E12C90C44CDD56591C54A41C9 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -400,7 +399,7 @@
 		9131C9DBF581451E5D2F651EF557FA3C /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		91961ACFA6B185235E2170FB8A84A529 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		9243D73F22784513C8ACAAEA24D35F25 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
-		932F23E389B49E232BD647020663D2B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		932F23E389B49E232BD647020663D2B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		93578004D03C8F74AB48607B7C889BD7 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
 		9375C0BB55DFECAECA8A1834C4507362 /* JDMcdnSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDMcdnSDK-dummy.m"; sourceTree = "<group>"; };
 		94FD4595C736118DEED22D951EF346DE /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
@@ -411,7 +410,7 @@
 		9CC3654C472F27299B98575E860980D0 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		9CFF99D80501B7AAA6E5DF7D30D15DDA /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		9D581AD8F86AB12D312E4B911FE4EE95 /* JDMcdnSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JDMcdnSDK-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D9BD3E2034FDE4CFA0D738DDC61BC9A /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultipartMessageHeaderField.h; path = KTVCocoaHTTPServer/Classes/Mime/MultipartMessageHeaderField.h; sourceTree = "<group>"; };
 		A2B16C6C398961506A1AF44FE8B2BC24 /* KTVHCDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTVHCDataStorage.h; sourceTree = "<group>"; };
 		A3F10D386970C1DA253D2A0FE062D33C /* JDMcdnSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDMcdnSDK.release.xcconfig; sourceTree = "<group>"; };
@@ -437,7 +436,7 @@
 		BBA1AA1C5AB17DB733CEE27EDE9BC68A /* Pods-JDMcdnSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JDMcdnSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		BE930D6904CD4CF533CDDF969C2149F1 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		BE9DDCCBD968EFDA3F7E16B0EA54CDA9 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		BF3F6B6538AFDDA4AC35879669278042 /* JDMcdnSdkFramework */ = {isa = PBXFileReference; includeInIndex = 1; name = JDMcdnSdkFramework; path = JDMcdnSDK/Classes/Framework/JDMcdnSdkFramework.framework/JDMcdnSdkFramework; sourceTree = "<group>"; };
+		BF3F6B6538AFDDA4AC35879669278042 /* JDMcdnSdkFramework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = JDMcdnSdkFramework; path = JDMcdnSDK/Classes/Framework/JDMcdnSdkFramework.framework/JDMcdnSdkFramework; sourceTree = "<group>"; };
 		BFAD4A08D3A4F6A68C2228E26685E412 /* Pods-JDMcdnSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JDMcdnSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C02882CEF5E4A2429BDC276B56316AE4 /* HTTPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = KTVCocoaHTTPServer/Classes/HTTPServer.m; sourceTree = "<group>"; };
 		C4920E1CB56B122C4A38D4F6A276F295 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -465,7 +464,7 @@
 		DCF64FBE429EBC6A59119841337710C2 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
 		DCF6BDEE056C6C842EAB2A0C4CAFA317 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		DE13BDA602DFEE50E741CE877679ED4F /* HTTPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HTTPMessage.h; path = KTVCocoaHTTPServer/Classes/HTTPMessage.h; sourceTree = "<group>"; };
-		DE4D0A1419F5395907887B3A9C9CFFD2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Podfile; path = JDMcdnSDK/Classes/Framework/JDMcdnSdkFramework.framework/Podfile; sourceTree = "<group>"; };
+		DE4D0A1419F5395907887B3A9C9CFFD2 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = JDMcdnSDK/Classes/Framework/JDMcdnSdkFramework.framework/Podfile; sourceTree = "<group>"; };
 		DE8213679B361F02B1F1DB4A577C48B7 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MultipartMessageHeaderField.m; path = KTVCocoaHTTPServer/Classes/Mime/MultipartMessageHeaderField.m; sourceTree = "<group>"; };
 		E5FAD85997B8CE4CF5B41BF79F7D513F /* KTVHCHTTPResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KTVHCHTTPResponse.h; sourceTree = "<group>"; };
 		E61ACCB21DB70DE670A267B0BD26C1E5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
@@ -484,7 +483,6 @@
 		F30D75E413913CAC81FE255D481BA13C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		F333463153950DE03A5EF0C06CEC9FE7 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		F386D81FAA1B848F0AB4126B85F32823 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		F772CF708395AFFFBD714FB172896EFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = JDMcdnSDK/Classes/Framework/JDMcdnSdkFramework.framework/Info.plist; sourceTree = "<group>"; };
 		F78F61ABE937CC4E27046F4354835CAF /* KTVHCData+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KTVHCData+Internal.h"; sourceTree = "<group>"; };
 		F7C89C4876FA06AD04D487D02ABA75A1 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		F85E1D852E67A811BD5F9A7B3D571D4C /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
@@ -615,7 +613,6 @@
 				05A7246C19451FD4A8059BAED2501D77 /* WebSocket.m */,
 				08FBF564867B35E660C66FBC75C143BD /* Support Files */,
 			);
-			name = KTVCocoaHTTPServer;
 			path = KTVCocoaHTTPServer;
 			sourceTree = "<group>";
 		};
@@ -645,7 +642,6 @@
 				A6A22BD4E938FF98FC1471375FDCD454 /* Support Files */,
 				772E3BD023F29D4EE1EC6CF3B5BE3645 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -719,7 +715,6 @@
 				F1945D7C0EC3D355871B8B9B2FCC375A /* NSString+MJExtension.m */,
 				9240AFBF821E6B2A286C8C7725191D33 /* Support Files */,
 			);
-			name = MJExtension;
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
@@ -758,7 +753,6 @@
 				6301DC2B2C7775FD2E65BA86A0E7A7DE /* GCDAsyncUdpSocket.m */,
 				92DA1CFCF4F8184FA5B9A39FC06A3DF5 /* Support Files */,
 			);
-			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
@@ -778,7 +772,6 @@
 				FA2050619E220F8923C1DC1F7C96AB13 /* Support Files */,
 				F1FE05CC8E8355C6363953CC6FFB825E /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -1019,7 +1012,6 @@
 		E1672FB4E3B6B3D874A0FB1DF49ECAD2 /* JDMcdnSDK */ = {
 			isa = PBXGroup;
 			children = (
-				F772CF708395AFFFBD714FB172896EFD /* Info.plist */,
 				BF3F6B6538AFDDA4AC35879669278042 /* JDMcdnSdkFramework */,
 				DE4D0A1419F5395907887B3A9C9CFFD2 /* Podfile */,
 				B025D78F2C9AD20EBE627236C9C361E0 /* Headers */,
@@ -1470,7 +1462,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D75FC65C702FF7B32BACB1A8EA6621C /* Info.plist in Sources */,
 				35B07C342A180B02E4E4B20488D62938 /* JDMcdnSDK-dummy.m in Sources */,
 				132DDD7AC3C81EA57EE124C2A52D9AAA /* JDMcdnSdkFramework in Sources */,
 				F8A4ACD8690518ADBC543C67866C8A53 /* Podfile in Sources */,
@@ -2212,8 +2203,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
